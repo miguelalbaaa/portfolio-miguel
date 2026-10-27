@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soy Miguel Albarracín, desarrollador web y estudiante de Informática. Creo páginas web y catálogos digitales, y ofrezco soporte técnico informático.">
+    <meta name="theme-color" content="#080b12">
+
+
+<title>Miguel Albarracín | Desarrollo Web y Soporte Técnico</title>
+
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+
+
+</head>
+
+<body>
+
+
+<!-- BARRA DE NAVEGACIÓN -->
+<header class="header">
+    <nav class="navbar container">
+        <a href="#inicio" class="logo">
+            <span class="logo-icon">M</span>
+            <span>Miguel<span class="text-accent">.</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="nav-links">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#conocimientos">Conocimientos</a></li>
+            <li><a href="#contacto" class="nav-cta">Contactarme ↗</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <!-- INICIO -->
+    <section class="hero section" id="inicio">
+        <div class="container hero-grid">
+
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Disponible para nuevos proyectos
+                </div>
+
+                <p class="eyebrow">DESARROLLO WEB · INFORMÁTICA</p>
+
+                <h1>
+                    Transformo tus ideas en
+                    <span class="gradient-text">soluciones digitales.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Soy Miguel Albarracín, desarrollador web y estudiante
+                    de Informática. Creo páginas web y catálogos digitales
+                    para negocios y emprendedores, y también ofrezco
+                    soporte técnico informático.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="button button-primary">
+                        Ver mis proyectos <span>↗</span>
+                    </a>
+
+                    <a href="#contacto" class="button button-secondary">
+                        Hablemos
+                    </a>
+                </div>
+
+                <div class="hero-details">
+                    <div>
+                        <strong>Web</strong>
+                        <span>Páginas y catálogos</span>
+                    </div>
+
+                    <div>
+                        <strong>IT</strong>
+                        <span>Soporte técnico</span>
+                    </div>
+
+                    <div>
+                        <strong>Enfoque</strong>
+                        <span>Soluciones prácticas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="glow"></div>
+
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="window-title">mi-proyecto.js</span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="code-muted">01</span> <span class="code-purple">const</span> desarrollador = {</p>
+                        <p><span class="code-muted">02</span> &nbsp; nombre: <span class="code-green">"Miguel"</span>,</p>
+                        <p><span class="code-muted">03</span> &nbsp; enfoque: <span class="code-green">"Soluciones"</span>,</p>
+                        <p><span class="code-muted">04</span> &nbsp; aprendizaje: <span class="code-green">"Continuo"</span>,</p>
+                        <p><span class="code-muted">05</span> &nbsp; creatividad: <span class="code-orange">true</span></p>
+                        <p><span class="code-muted">06</span> };</p>
+                        <br>
+                        <p><span class="code-comment">// Construyendo el próximo proyecto...</span></p>
+                        <p><span class="code-blue">desarrollador</span>.<span class="code-yellow">crear</span>();<span class="cursor">▋</span></p>
+                    </div>
+
+                    <div class="code-footer">
+                        <span>● Proyecto personal</span>
+                        <span>UTF-8</span>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-card-top">
+                    <span class="floating-icon">⌘</span>
+                    <div>
+                        <strong>Desarrollo web</strong>
+                        <span>Diseño y funcionalidad</span>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-card-bottom">
+                    <span class="floating-icon">⚙</span>
+                    <div>
+                        <strong>Soporte IT</strong>
+                        <span>Diagnóstico y soluciones</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="section section-alt" id="sobre-mi">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">CONOCÉ MI PERFIL</p>
+                <h2>Sobre <span class="gradient-text">mí.</span></h2>
+                <p>
+                    Formación técnica, curiosidad y ganas de crear
+                    soluciones que sean útiles en el mundo real.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-symbol">01 / PERFIL</div>
+                    <h3>Tecnología con un propósito</h3>
+                    <p>
+                        Me interesa utilizar la informática para resolver
+                        problemas concretos. Combino mis conocimientos
+                        técnicos con el desarrollo web para crear
+                        soluciones digitales prácticas y accesibles.
+                    </p>
+                    <p>
+                        Estoy construyendo mi experiencia mediante
+                        proyectos propios y formación continua.
+                    </p>
+                </div>
+
+                <div class="about-card about-card-highlight">
+                    <div class="about-symbol">02 / FORMACIÓN</div>
+                    <h3>Educación técnica</h3>
+                    <p>
+                        Actualmente curso el último año de la secundaria
+                        técnica en la especialidad Informática Personal
+                        y Profesional.
+                    </p>
+
+                    <div class="education-item">
+                        <span class="education-dot"></span>
+                        <div>
+                            <strong>Secundaria técnica</strong>
+                            <span>Informática Personal y Profesional</span>
+                            <span>En curso</span>
+                        </div>
+                    </div>
+
+                    <div class="education-item">
+                        <span class="education-dot"></span>
+                        <div>
+                            <strong>Aprendizaje independiente</strong>
+                            <span>Desarrollo web y programación</span>
+                            <span>En progreso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">CÓMO PUEDO AYUDARTE</p>
+                <h2>Servicios <span class="gradient-text">que ofrezco.</span></h2>
+                <p>
+                    Soluciones pensadas para emprendedores, pequeños
+                    negocios y personas que necesitan ayuda con tecnología.
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <article class="service-card">
+                    <div class="service-icon">⌘</div>
+                    <span class="service-number">01</span>
+                    <h3>Páginas web</h3>
+                    <p>
+                        Sitios web adaptables a celulares y computadoras
+                        para presentar negocios, servicios o proyectos.
+                    </p>
+                    <ul>
+                        <li>Diseño adaptable</li>
+                        <li>Secciones personalizadas</li>
+                        <li>Información de contacto</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">▤</div>
+                    <span class="service-number">02</span>
+                    <h3>Catálogos digitales</h3>
+                    <p>
+                        Catálogos online para que tus clientes puedan
+                        conocer tus productos de forma sencilla.
+                    </p>
+                    <ul>
+                        <li>Listado de productos</li>
+                        <li>Categorías y filtros</li>
+                        <li>Contacto para consultas</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">⚙</div>
+                    <span class="service-number">03</span>
+                    <h3>Soporte informático</h3>
+                    <p>
+                        Ayuda con problemas habituales de software,
+                        configuración y funcionamiento de computadoras.
+                    </p>
+                    <ul>
+                        <li>Diagnóstico inicial</li>
+                        <li>Instalación de programas</li>
+                        <li>Configuración de sistemas</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">⌁</div>
+                    <span class="service-number">04</span>
+                    <h3>Mantenimiento de PC</h3>
+                    <p>
+                        Revisión y mantenimiento informático para ayudar
+                        a mantener los equipos funcionando correctamente.
+                    </p>
+                    <ul>
+                        <li>Revisión de componentes</li>
+                        <li>Detección de fallas</li>
+                        <li>Mantenimiento preventivo</li>
+                    </ul>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">⌘</div>
+                    <span class="service-number">05</span>
+                    <h3>Automatizaciones simples</h3>
+                    <p>
+                        Herramientas pequeñas para reducir tareas
+                        repetitivas y organizar información.
+                    </p>
+                    <ul>
+                        <li>Scripts básicos</li>
+                        <li>Organización de datos</li>
+                        <li>Soluciones personalizadas</li>
+                    </ul>
+                </article>
+
+                <article class="service-card service-card-cta">
+                    <div class="service-icon">↗</div>
+                    <h3>¿Tenés otra idea?</h3>
+                    <p>
+                        Contame qué necesitás. Podemos evaluar tu
+                        proyecto y definir una solución realista.
+                    </p>
+                    <a href="#contacto" class="text-link">
+                        Consultar por mi proyecto →
+                    </a>
+                </article>
+
+            </div>
+
+            <p class="service-note">
+                Cada trabajo se evalúa según sus características,
+                alcance y requisitos. Los presupuestos son personalizados.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="section section-alt" id="proyectos">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">TRABAJOS REALIZADOS</p>
+                <h2>Proyectos <span class="gradient-text">destacados.</span></h2>
+                <p>
+                    Proyectos propios que muestran mi aprendizaje
+                    y aplicación de conocimientos de desarrollo web.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-preview nova-preview">
+                        <div class="preview-browser">
+                            <div class="preview-browser-bar">
+                                <span></span><span></span><span></span>
+                                <span class="preview-url">nova-store</span>
+                            </div>
+                            <div class="nova-mockup">
+                                <p class="mockup-brand">NOVA STORE</p>
+                                <p class="mockup-heading">Encontrá tu estilo.</p>
+                                <div class="mockup-products">
+                                    <div class="mockup-product">01</div>
+                                    <div class="mockup-product">02</div>
+                                    <div class="mockup-product">03</div>
+                                </div>
+                                <span class="mockup-caption">CATÁLOGO DIGITAL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-body">
+                        <div class="project-topline">
+                            <span class="project-type">CATÁLOGO DIGITAL</span>
+                            <span class="project-index">PROYECTO 01</span>
+                        </div>
+
+                        <h3>NOVA STORE</h3>
+                        <p>
+                            Catálogo de indumentaria con categorías,
+                            filtros y diseño adaptable para facilitar
+                            la exploración de productos.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://miguelalbaaa.github.io/Nova-Store/"
+                           class="project-link" target="_blank"
+                           rel="noopener noreferrer">
+                            Ver demostración <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview urban-preview">
+                        <div class="preview-browser">
+                            <div class="preview-browser-bar">
+                                <span></span><span></span><span></span>
+                                <span class="preview-url">urban-cuts</span>
+                            </div>
+                            <div class="urban-mockup">
+                                <p class="urban-brand">URBAN CUTS</p>
+                                <p class="urban-heading">YOUR STYLE.<br>YOUR RULES.</p>
+                                <div class="urban-line"></div>
+                                <span class="urban-caption">BARBER SHOP · DEMO</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-body">
+                        <div class="project-topline">
+                            <span class="project-type">SITIO WEB COMERCIAL</span>
+                            <span class="project-index">PROYECTO 02</span>
+                        </div>
+
+                        <h3>URBAN CUTS</h3>
+                        <p>
+                            Sitio conceptual para una barbería, con
+                            presentación de servicios, galería,
+                            información comercial y contacto.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://miguelalbaaa.github.io/urban-cuts/"
+                           class="project-link" target="_blank"
+                           rel="noopener noreferrer">
+                            Ver demostración <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="projects-disclaimer">
+                <span>ⓘ</span>
+                <p>
+                    NOVA STORE y URBAN CUTS son proyectos de demostración.
+                    Los negocios, contenidos y datos que aparecen en ellos
+                    no deben interpretarse como clientes comerciales reales.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONOCIMIENTOS -->
+    <section class="section" id="conocimientos">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">HERRAMIENTAS Y CONOCIMIENTOS</p>
+                <h2>Mi base <span class="gradient-text">técnica.</span></h2>
+                <p>
+                    Conocimientos adquiridos mediante mi formación,
+                    práctica y proyectos personales.
+                </p>
+            </div>
+
+            <div class="skills-layout">
+
+                <div class="skills-group">
+                    <div class="skills-group-heading">
+                        <span class="skills-group-icon">⌘</span>
+                        <div>
+                            <h3>Desarrollo web</h3>
+                            <p>Estructura, diseño e interactividad.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML</span>
+                            <span>Intermedio</span>
+                        </div>
+                        <div class="skill-track"><span style="width: 65%"></span></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS</span>
+                            <span>Intermedio</span>
+                        </div>
+                        <div class="skill-track"><span style="width: 65%"></span></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>Básico</span>
+                        </div>
+                        <div class="skill-track"><span style="width: 35%"></span></div>
+                    </div>
+                </div>
+
+                <div class="skills-group">
+                    <div class="skills-group-heading">
+                        <span class="skills-group-icon">⌘</span>
+                        <div>
+                            <h3>Programación y herramientas</h3>
+                            <p>Desarrollo, edición y control de versiones.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>Básico</span>
+                        </div>
+                        <div class="skill-track"><span style="width: 35%"></span></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Git y GitHub</span>
+                            <span>Intermedio</span>
+                        </div>
+                        <div class="skill-track"><span style="width: 65%"></span></div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Herramientas de IA</span>
+                            <span>Uso práctico</span>
+                        </div>
+                        <div class="skill-track"><span style="width: 60%"></span></div>
+                    </div>
+                </div>
+
+                <div class="skills-group skills-group-wide">
+                    <div class="skills-group-heading">
+                        <span class="skills-group-icon">⚙</span>
+                        <div>
+                            <h3>Informática y soporte técnico</h3>
+                            <p>Conocimientos aplicados a equipos informáticos.</p>
+                        </div>
+                    </div>
+
+                    <div class="knowledge-tags">
+                        <span>Armado de PC</span>
+                        <span>Diagnóstico de hardware</span>
+                        <span>Mantenimiento informático</span>
+                        <span>Instalación de sistemas operativos</span>
+                        <span>Instalación de programas y drivers</span>
+                        <span>Configuración de equipos</span>
+                        <span>Paquetería de oficina</span>
+                        <span>Canva</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="skills-note">
+                Los niveles son orientativos y reflejan mi autoevaluación
+                actual. Continúo desarrollando estas habilidades mediante
+                la práctica y nuevos proyectos.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROCESO DE TRABAJO -->
+    <section class="section section-alt" id="proceso">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">UNA FORMA CLARA DE TRABAJAR</p>
+                <h2>De la idea <span class="gradient-text">al resultado.</span></h2>
+                <p>
+                    Un proceso sencillo para entender qué necesitás
+                    y trabajar con objetivos definidos.
+                </p>
+            </div>
+
+            <div class="process-grid">
+                <article class="process-item">
+                    <span class="process-number">01</span>
+                    <h3>Conversamos</h3>
+                    <p>Me contás tu idea, tus objetivos y qué necesitás resolver.</p>
+                </article>
+
+                <article class="process-item">
+                    <span class="process-number">02</span>
+                    <h3>Definimos</h3>
+                    <p>Evaluamos el alcance, las funcionalidades y el presupuesto.</p>
+                </article>
+
+                <article class="process-item">
+                    <span class="process-number">03</span>
+                    <h3>Desarrollo</h3>
+                    <p>Construyo la solución acordada y revisamos su funcionamiento.</p>
+                </article>
+
+                <article class="process-item">
+                    <span class="process-number">04</span>
+                    <h3>Entrega</h3>
+                    <p>Te entrego el trabajo según las condiciones que acordemos.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact-section" id="contacto">
+        <div class="container">
+            <div class="contact-card">
+                <div class="contact-content">
+                    <p class="eyebrow">¿TENÉS UN PROYECTO EN MENTE?</p>
+                    <h2>Hagamos algo <span class="gradient-text">útil.</span></h2>
+                    <p>
+                        Si necesitás una página web, un catálogo digital
+                        o ayuda con tu computadora, contame qué tenés en mente.
+                        Podemos conversar y evaluar una solución.
+                    </p>
+
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/5493838402391"
+                           class="button button-primary"
+                           target="_blank" rel="noopener noreferrer">
+                            Escribirme por WhatsApp ↗
+                        </a>
+
+                        <a href="mailto:miguelalbaaaaa@gmail.com"
+                           class="button button-secondary">
+                            Enviarme un correo
+                        </a>
+                    </div>
+
+                    <p class="contact-response">
+                        Consultas sin compromiso · Presupuestos personalizados
+                    </p>
+                </div>
+
+                <div class="contact-decoration">
+                    <div class="contact-orbit orbit-one"></div>
+                    <div class="contact-orbit orbit-two"></div>
+                    <div class="contact-monogram">M<span>.</span></div>
+                    <span class="contact-caption">CREATIVIDAD · TECNOLOGÍA · SOLUCIONES</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- PIE DE PÁGINA -->
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#inicio" class="logo">
+            <span class="logo-icon">M</span>
+            <span>Miguel<span class="text-accent">.</span></span>
+        </a>
+
+        <p>Desarrollo web y soporte técnico informático.</p>
+
+        <span class="footer-copy">
+            © <span id="current-year">2026</span> Miguel Albarracín
+        </span>
+    </div>
+</footer>
+
+</body>
+</html>
